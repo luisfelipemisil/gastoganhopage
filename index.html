@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganho Gasto - Controle suas Finanças com Simplicidade</title>
-    <meta name="description" content="App de controle financeiro para rendas irregulares. Controle seus ganhos diários e metas de poupança de forma inteligente.">
+    <title>Ganho Gasto - Controle Financeiro com Elegância Clássica</title>
+    <meta name="description" content="App de controle financeiro com tema old money para rendas irregulares. Capture notificações bancárias automaticamente.">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/app-icon.png">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
         <nav class="nav">
             <div class="nav-brand">
-                <span class="logo">💳</span>
+                <img src="assets/app-icon.png" alt="Ganho Gasto" class="app-icon">
                 <span class="brand-name">Ganho Gasto</span>
             </div>
             <div class="nav-links">
                 <a href="#features">Funcionalidades</a>
                 <a href="#how-it-works">Como Funciona</a>
+                <a href="#notification-capture">Captura Automática</a>
                 <a href="#download">Baixar</a>
             </div>
         </nav>
@@ -30,28 +32,28 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="hero-title">
-                        Controle suas finanças com <span class="highlight">rendas irregulares</span>
+                        Controle Financeiro com <span class="highlight">Elegância Clássica</span>
                     </h1>
                     <p class="hero-description">
-                        Ganho Gasto é o app perfeito para freelancers, autônomos e quem tem renda variável. 
-                        Defina metas de poupança automáticas e controle seus gastos diários de forma inteligente.
+                        Ganho Gasto combina a sofisticação do estilo old money com tecnologia moderna 
+                        para transformar seu controle financeiro. Perfeito para rendas irregulares.
                     </p>
                     <div class="hero-buttons">
                         <a href="#download" class="btn btn-primary">
                             <span>📱 Baixar Agora</span>
                         </a>
-                        <a href="#how-it-works" class="btn btn-secondary">
-                            <span>▶️ Ver Demonstração</span>
+                        <a href="#notification-capture" class="btn btn-secondary">
+                            <span>🔔 Captura Automática</span>
                         </a>
                     </div>
                     <div class="hero-stats">
                         <div class="stat">
                             <span class="stat-number">+500</span>
-                            <span class="stat-label">usuários satisfeitos</span>
+                            <span class="stat-label">usuários elegantes</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">4.8</span>
-                            <span class="stat-label">avaliação Play Store</span>
+                            <span class="stat-label">avaliação</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">R$ 0</span>
@@ -60,27 +62,19 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <div class="phone-mockup">
-                        <div class="phone-screen">
-                            <img src="assets/app-screenshot.png" alt="Tela do app Ganho Gasto" onerror="this.style.display='none'">
-                            <div class="screen-placeholder">
-                                <div class="app-preview">
-                                    <div class="app-header">
-                                        <span>Ganho Gasto</span>
-                                    </div>
-                                    <div class="app-content">
-                                        <div class="balance-card">
-                                            <span>Saldo Disponível</span>
-                                            <strong>R$ 1.247,50</strong>
-                                        </div>
-                                        <div class="savings-goal">
-                                            <span>Meta de Poupança: 20%</span>
-                                            <div class="progress-bar">
-                                                <div class="progress" style="width: 65%"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="hero-image">
+                    <div class="phones-container">
+                        <!-- Phone 1 - Light Theme -->
+                        <div class="phone-mockup light-theme">
+                            <div class="phone-frame">
+                                <img src="assets/screenshot1.png" alt="Ganho Gasto - Tema Claro" class="screenshot">
+                            </div>
+                        </div>
+                        
+                        <!-- Phone 2 - Dark Theme -->
+                        <div class="phone-mockup dark-theme">
+                            <div class="phone-frame">
+                                <img src="assets/screenshot2.png" alt="Ganho Gasto - Tema Escuro" class="screenshot">
                             </div>
                         </div>
                     </div>
@@ -92,37 +86,100 @@
     <!-- Features Section -->
     <section id="features" class="features">
         <div class="container">
-            <h2 class="section-title">Funcionalidades que Fazem a Diferença</h2>
+            <h2 class="section-title">Funcionalidades com Sofisticação</h2>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">💰</div>
                     <h3>Metas de Poupança Inteligentes</h3>
-                    <p>Defina uma porcentagem fixa para economizar de toda renda recebida. O app calcula automaticamente quanto guardar.</p>
+                    <p>Defina porcentagens fixas para economizar automaticamente de cada renda recebida.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">📊</div>
                     <h3>Controle de Rendas Diárias</h3>
-                    <p>Registre cada ganho do dia e acompanhe a evolução mensal. Perfeito para quem tem renda variável.</p>
+                    <p>Registre ganhos variáveis e acompanhe a evolução mensal com visual elegante.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">📅</div>
                     <h3>Orçamento Diário Automático</h3>
-                    <p>O valor disponível após a poupança é dividido igualmente pelos dias do mês. Controle seus gastos diários.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📈</div>
-                    <h3>Relatórios Visuais</h3>
-                    <p>Gráficos e relatórios simples para entender para onde seu dinheiro está indo e onde pode economizar.</p>
+                    <p>Valor disponível dividido igualmente pelos dias do mês para controle preciso.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">🔔</div>
-                    <h3>Lembretes Inteligentes</h3>
-                    <p>Notificações para registrar suas rendas e acompanhar seu orçamento diário.</p>
+                    <h3>Captura de Notificações</h3>
+                    <p>Detecta automaticamente transações bancárias via notificações do celular.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Design Old Money</h3>
+                    <p>Interface sofisticada com cores clássicas e tipografia elegante.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">🌙</div>
-                    <h3>Modo Escuro</h3>
-                    <p>Interface agradável com suporte a modo escuro para uso confortável a qualquer hora.</p>
+                    <h3>Modo Noturno Elegante</h3>
+                    <p>Experiencia visual confortável em qualquer condição de luz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notification Capture Section -->
+    <section id="notification-capture" class="notification-capture">
+        <div class="container">
+            <div class="notification-content">
+                <div class="notification-text">
+                    <h2>Captura Automática de Transações</h2>
+                    <p class="notification-description">
+                        O Ganho Gasto detecta automaticamente suas transações bancárias através das notificações do celular, 
+                        poupando tempo e garantindo que nenhum gasto ou ganho seja esquecido.
+                    </p>
+                    <div class="notification-features">
+                        <div class="notification-feature">
+                            <span class="feature-icon">🤖</span>
+                            <div>
+                                <h4>Reconhecimento Inteligente</h4>
+                                <p>Identifica valores, descrições e tipos de transação automaticamente</p>
+                            </div>
+                        </div>
+                        <div class="notification-feature">
+                            <span class="feature-icon">🔒</span>
+                            <div>
+                                <h4>Privacidade Garantida</h4>
+                                <p>Seus dados nunca saem do seu dispositivo. Processamento 100% local</p>
+                            </div>
+                        </div>
+                        <div class="notification-feature">
+                            <span class="feature-icon">⚡</span>
+                            <div>
+                                <h4>Atualização Instantânea</h4>
+                                <p>Transações aparecem no app segundos após a notificação bancária</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="notification-demo">
+                    <div class="notification-flow">
+                        <div class="flow-step">
+                            <div class="step-icon">1</div>
+                            <div class="step-content">
+                                <h4>Notificação Recebida</h4>
+                                <p>Seu banco envia notificação de transação</p>
+                            </div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="step-icon">2</div>
+                            <div class="step-content">
+                                <h4>Captura Automática</h4>
+                                <p>Ganho Gasto detecta e analisa a notificação</p>
+                            </div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="step-icon">3</div>
+                            <div class="step-content">
+                                <h4>Registro Instantâneo</h4>
+                                <p>Transação é adicionada automaticamente ao app</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -136,29 +193,29 @@
                 <div class="step">
                     <div class="step-number">1</div>
                     <div class="step-content">
-                        <h3>Registre suas Rendas</h3>
-                        <p>Adicione todo dinheiro que você recebe durante o dia, não importa o valor.</p>
+                        <h3>Configure suas Metas</h3>
+                        <p>Defina qual porcentagem do total ganho você quer economizar (20%, 30%, etc.)</p>
                     </div>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
                     <div class="step-content">
-                        <h3>Defina sua Meta de Poupança</h3>
-                        <p>Escolha qual porcentagem do total ganho você quer economizar (ex: 20%, 30%).</p>
+                        <h3>Registre ou Capture Automaticamente</h3>
+                        <p>Adicione rendas manualmente ou deixe o app capturar notificações bancárias</p>
                     </div>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
                     <div class="step-content">
-                        <h3>Controle Seu Orçamento Diário</h3>
-                        <p>O app calcula automaticamente quanto você pode gastar por dia com o que sobrou.</p>
+                        <h3>Acompanhe seu Orçamento</h3>
+                        <p>Veja quanto pode gastar por dia com base no que sobrou após a poupança</p>
                     </div>
                 </div>
                 <div class="step">
                     <div class="step-number">4</div>
                     <div class="step-content">
-                        <h3>Acompanhe e Economize</h3>
-                        <p>Veja seus progressos e ajuste suas metas conforme sua evolução financeira.</p>
+                        <h3>Economize sem Esforço</h3>
+                        <p>O app calcula e separa automaticamente sua poupança a cada renda recebida</p>
                     </div>
                 </div>
             </div>
@@ -170,49 +227,55 @@
         <div class="container">
             <div class="demo-content">
                 <div class="demo-text">
-                    <h2>Experimente a Simplicidade</h2>
-                    <p>Interface intuitiva desenvolvida especialmente para quem precisa de controle financeiro sem complicação.</p>
+                    <h2>Experiencia Elegante e Funcional</h2>
+                    <p>Interface inspirada no conceito "old money" com todas as funcionalidades modernas que você precisa.</p>
                     <ul class="demo-features">
-                        <li>✅ Sem anúncios irritantes</li>
+                        <li>✅ Captura automática de notificações</li>
+                        <li>✅ Metas de poupança inteligentes</li>
+                        <li>✅ Design old money sofisticado</li>
                         <li>✅ Totalmente gratuito</li>
                         <li>✅ Funciona offline</li>
                         <li>✅ Privacidade garantida</li>
-                        <li>✅ Suporte rápido</li>
                     </ul>
                 </div>
                 <div class="demo-screenshots">
                     <div class="screenshot-grid">
-                        <div class="screenshot">
-                            <div class="screenshot-placeholder">
-                                <div class="app-screen">
-                                    <div class="screen-header">
-                                        <span>Rendas Hoje</span>
+                        <div class="screenshot old-money-theme">
+                            <div class="app-screen">
+                                <div class="screen-header">
+                                    <span>Transações de Hoje</span>
+                                </div>
+                                <div class="screen-content">
+                                    <div class="transaction-item">
+                                        <span>Mercado</span>
+                                        <span class="expense">- R$ 45,50</span>
                                     </div>
-                                    <div class="screen-content">
-                                        <div class="income-item">
-                                            <span>Freelance</span>
-                                            <span>+ R$ 150,00</span>
-                                        </div>
-                                        <div class="income-item">
-                                            <span>Vendas</span>
-                                            <span>+ R$ 80,00</span>
-                                        </div>
+                                    <div class="transaction-item">
+                                        <span>Freelance</span>
+                                        <span class="income">+ R$ 150,00</span>
+                                    </div>
+                                    <div class="notification-badge">
+                                        <span>🔔 Capturado automaticamente</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="screenshot">
-                            <div class="screenshot-placeholder">
-                                <div class="app-screen">
-                                    <div class="screen-header">
-                                        <span>Meta de Poupança</span>
+                        <div class="screenshot old-money-theme">
+                            <div class="app-screen">
+                                <div class="screen-header">
+                                    <span>Meta de Poupança</span>
+                                </div>
+                                <div class="screen-content">
+                                    <div class="goal-setting">
+                                        <span>Economizar</span>
+                                        <div class="percentage">20%</div>
+                                        <span>de toda renda</span>
                                     </div>
-                                    <div class="screen-content">
-                                        <div class="goal-setting">
-                                            <span>Economizar</span>
-                                            <div class="percentage">20%</div>
-                                            <span>de toda renda</span>
+                                    <div class="savings-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 65%"></div>
                                         </div>
+                                        <span>R$ 650,00 de R$ 1.000,00</span>
                                     </div>
                                 </div>
                             </div>
@@ -227,8 +290,8 @@
     <section id="download" class="download">
         <div class="container">
             <div class="download-card">
-                <h2>Pronto para Transformar sua Vida Financeira?</h2>
-                <p>Baixe agora e comece a controlar seu dinheiro de verdade</p>
+                <h2>Pronto para uma Vida Financeira Elegante?</h2>
+                <p>Baixe agora e transforme seu controle financeiro com sofisticação e tecnologia</p>
                 <div class="download-buttons">
                     <a href="#" class="store-btn google-play">
                         <span class="store-icon">📱</span>
@@ -246,7 +309,7 @@
                     </a>
                 </div>
                 <div class="download-note">
-                    <p>⚡ Instalação rápida • 📊 Controle imediato • 💰 100% Gratuito</p>
+                    <p>⚡ Captura automática • 🎨 Design old money • 💰 100% Gratuito</p>
                 </div>
             </div>
         </div>
@@ -258,20 +321,20 @@
             <h2 class="section-title">Perguntas Frequentes</h2>
             <div class="faq-grid">
                 <div class="faq-item">
-                    <h3>O app é realmente gratuito?</h3>
-                    <p>Sim! O Ganho Gasto é completamente gratuito, sem anúncios e sem limitações de uso.</p>
+                    <h3>Como funciona a captura de notificações?</h3>
+                    <p>O app detecta automaticamente notificações de transações bancárias e as importa para seu controle, identificando valores e tipos de transação.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Precisa de internet para usar?</h3>
-                    <p>Não! O app funciona totalmente offline. Seus dados ficam seguros no seu dispositivo.</p>
+                    <h3>É seguro usar a captura automática?</h3>
+                    <p>Totalmente! O processamento é feito localmente no seu dispositivo. Seus dados bancários nunca são enviados para servidores externos.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Como funciona a meta de poupança?</h3>
-                    <p>Você define uma porcentagem (ex: 20%) e o app automaticamente calcula quanto economizar de cada renda recebida.</p>
+                    <h3>Precisa de internet para a captura?</h3>
+                    <p>Não! A captura de notificações funciona totalmente offline. O app analisa as notificações localmente.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>É seguro?</h3>
-                    <p>Totalmente! Seus dados financeiros nunca saem do seu celular. Não coletamos informações pessoais.</p>
+                    <h3>Quais bancos são compatíveis?</h3>
+                    <p>Funciona com a maioria dos bancos brasileiros que enviam notificações detalhadas, incluindo Itaú, Bradesco, Nubank, Inter, e outros.</p>
                 </div>
             </div>
         </div>
@@ -282,20 +345,29 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <span class="logo">💳</span>
+                    <img src="assets/app-icon.png" alt="Ganho Gasto" class="app-icon small">
                     <span class="brand-name">Ganho Gasto</span>
-                    <p>Controle financeiro simples para vida real</p>
+                    <p>Controle financeiro com elegância clássica</p>
                 </div>
                 <div class="footer-links">
                     <a href="#features">Funcionalidades</a>
+                    <a href="#notification-capture">Captura Automática</a>
                     <a href="#how-it-works">Como Usar</a>
                     <a href="#download">Download</a>
                     <a href="mailto:suporte@ganhogasto.com">Suporte</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Ganho Gasto. Todos os direitos reservados.</p>
+                <p>&copy; 2025 Ganho Gasto. Todos os direitos reservados.</p>
             </div>
+        </div>
+        <div class="footer-links">
+            <a href="#features">Funcionalidades</a>
+            <a href="#notification-capture">Captura Automática</a>
+            <a href="#how-it-works">Como Usar</a>
+            <a href="#download">Download</a>
+            <a href="policy.html">Privacidade</a> <!-- Link novo -->
+            <a href="mailto:suporte@ganhogasto.com">Suporte</a>
         </div>
     </footer>
 
